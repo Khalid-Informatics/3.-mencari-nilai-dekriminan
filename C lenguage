@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(){
+	float a, b, c, diskriminan;
+	
+	printf("Masukkan nilai a: ");
+	scanf("%f", &a);
+	printf("Masukkan nilai b: ");
+	scanf("%f", &b);
+	printf("Masukkan nilai c: ");
+	scanf("%f", &c);
+	
+	diskriminan = (b * b) - (4 * a * c);
+	
+	printf("Nilai diskriminan adalah: %f\n", diskriminan);
+	
+	return 0;
+}
